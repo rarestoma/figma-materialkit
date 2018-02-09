@@ -388,7 +388,7 @@
     padding-bottom: 0;
 }
 .section-download h4{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .section-examples a{
     text-decoration: none;
@@ -768,6 +768,7 @@ body{
 .brand h1{
   font-weight: 700;
   margin-top: 0;
+  font-size: 3rem;
 }
 .brand .btn{
   margin-bottom: 30px;
