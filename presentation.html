@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" href="./assets/img/apple-icon.png">
     <link rel="icon" href="./assets/img/favicon.png">
     <title>
-        Material Kit by Creative Tim
+        Material Kit for Figma by Creative Tim
     </title>
     <!-- Canonical SEO -->
     <link rel="canonical" href="http://demos.creative-tim.com/material-kit-figma/index.html">
@@ -20,7 +20,7 @@
     <meta name="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design.">
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Material Kit Figma by Creative Tim">
+    <meta itemprop="name" content="Material Kit for Figma by Creative Tim">
     <meta itemprop="description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design.">
 
     <meta itemprop="image" content="">
@@ -29,18 +29,18 @@
 
     <meta name="twitter:card" content="product">
     <meta name="twitter:site" content="@creativetim">
-    <meta name="twitter:title" content="Material Kit Figma by Creative Tim">
+    <meta name="twitter:title" content="Material Kit for Figma by Creative Tim">
 
     <meta name="twitter:description" content="Start Your Development With A Badass Bootstrap 4 UI Kit inspired by Material Design.">
     <meta name="twitter:creator" content="@creativetim">
     <meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/46/original/opt_mkp_thumbnail.jpg">
-    <meta name="twitter:data1" content="Material Kit Figma by Creative Tim">
+    <meta name="twitter:data1" content="Material Kit for Figma by Creative Tim">
     <meta name="twitter:label1" content="Product Type">
     <meta name="twitter:label2" content="Price">
 
     <!-- Open Graph data -->
     <meta property="fb:app_id" content="655968634437471">
-    <meta property="og:title" content="Material Kit Figma by Creative Tim">
+    <meta property="og:title" content="Material Kit for Figma by Creative Tim">
     <meta property="og:type" content="article">
     <meta property="og:url" content=" http://demos.creative-tim.com/material-kit-figma/index.html">
     <meta property="og:image" content="">
@@ -51,257 +51,11 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/material-kit.css?v=2.0.0">
+
     <!-- Documentation extras -->
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/assets-for-demo/demo.css" rel="stylesheet" />
     <link href="./assets/assets-for-demo/vertical-nav.css" rel="stylesheet" />
-    <style>
-      body{
-        overflow-x: hidden;
-      }
-      .navbar .navbar-nav .nav-item .nav-link:not(.btn-just-icon) .fa{
-        margin-right: 0;
-      }
-      .navbar .navbar-nav .nav-item .nav-link{
-        margin-right: 4px;
-      }
-
-      .imac{
-        position: absolute;
-        z-index: 1;
-        right: -200px;
-        width: 1050px;
-        top: -170px;
-      }
-      .page-header{
-          background: radial-gradient(#565656 0%, #080404 100%);
-          background-size: 150% 200%;
-      }
-
-      .page-header .figma-logo{
-        width: 30px;
-        height: 30px;
-      }
-
-      .brand h1{
-        font-weight: 700;
-      }
-
-      .page-header .creative-tim-logo{
-        width: 120px;
-      }
-      .page-header::before{
-        content:"";
-        display: block;
-        position: absolute;
-        background: rgba(0,0,0,0.5);
-      }
-      .page-header .container{
-        z-index: auto;
-      }
-      .page-header .container .col-lg-6:first-child{
-        z-index: 2;
-      }
-      p{
-        font-size: 16px;
-      }
-
-      .features-1 .col-md-6{
-        border: 1px solid hsla(0, 3%, 33%, .1);
-
-      }
-
-      .features-1 .col-md-6:first-child{
-        border-left: none;
-        border-top: none;
-
-      }
-
-      .features-1 .col-md-6:nth-child(2){
-        border-right: none;
-        border-top: none;
-
-      }
-
-      .features-1 .col-md-6:nth-child(3){
-        border-left: none;
-        border-bottom: none;
-
-      }
-
-      .features-1 .col-md-6:nth-child(4){
-        border-right: none;
-        border-bottom: none;
-
-      }
-
-      .section-content
-      img{
-        height: auto !important;
-      }
-
-      .share-btn-img{
-        border-radius: 3px;
-      }
-
-      footer{
-        border-top: 1px solid #ddd;
-      }
-
-      .image-container-responsive{
-        width: 800px;
-        position: relative;
-      }
-
-      .image-container-responsive img{
-        width: 100%;
-        left: 100px;
-        margin-left: 100px;
-
-      }
-
-      .image-container-responsive .phone{
-        left: -200px;
-        width: 65%;
-        top: 100px;
-        position: absolute;
-      }
-      @media (max-width:767px){
-        .features-1 .col-md-6:first-child{
-          border-left: none;
-          border-top: none;
-          border-right: none;
-
-        }
-
-        .features-1 .col-md-6:nth-child(2){
-          border-right: none;
-          border-top: none;
-          border-left: none;
-
-        }
-
-        .features-1 .col-md-6:nth-child(3){
-          border-left: none;
-          border-bottom: none;
-          border-right: none;
-
-        }
-
-        .features-1 .col-md-6:nth-child(4){
-          border-right: none;
-          border-bottom: none;
-          border-left: none;
-
-        }
-
-        .table-img{
-          max-width: 190px;
-          max-height: 60px;
-        }
-
-        .section-components .social-img {
-            left: 40%;
-            top: 25%;
-            height: 20px;
-        }
-
-
-        .section-components .image-container {
-          height: 300px;
-        }
-
-        .components-macbook{
-          max-width: 400px;
-          max-height: 240px;
-          left: 0px;
-        }
-
-        .section-components .coloured-card-img {
-        left: 30%;
-        height: 60px;
-      }
-
-      .image-container-responsive{
-        width: auto;
-      }
-
-        .image-container-responsive img:first-child{
-            width: 30%;
-            display: none;
-        }
-
-        .image-container-responsive .phone{
-          width: 85%;
-          position: relative;
-          margin-left: 30px;
-          left: 0px;
-          top: 0px;
-        }
-
-        .section-content .image-container .area-img{
-          width: 100px;
-        }
-
-        .section-content .image-container .info-img{
-          width: 200px;
-        }
-
-        .imac{
-          display: none;
-        }
-      }
-
-      @media (max-width:991px) and (min-width:768px){
-        .imac{
-          display: none;
-        }
-
-        .image-container-responsive{
-          width: auto;
-        }
-
-        .image-container-responsive img{
-            width: 60%;
-        }
-
-        .image-container-responsive .phone{
-          width: 40%;
-          left: -100px;
-        }
-
-        .section-components .coloured-card-img {
-        left: 60%;
-      }
-
-      .section-components .social-img {
-        left: 45%;
-      }
-      .components-macbook{
-        max-width: 700px;
-        max-height: 440px;
-        left: 0px;
-      }
-    }
-
-    @media (max-width:991px){
-      .brand{
-        text-align: center;
-      }
-
-      .section-description{
-        text-align: center;
-      }
-
-      .section-components{
-        text-align: center;
-      }
-
-      .title{
-        text-align: center;
-      }
-    }
-    </style>
 </head>
 
 <body>
@@ -353,39 +107,28 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="brand">
-                        <h1> Material Kit
-                        </h1>
-                        <h4> Start the Development With A Badass Bootstrap 4 UI Kit inspired by Material Design. </h4>
+                        <h1 class="title"> Material Kit</h1>
+                        <h4> Start the Development With A Badass Bootstrap 4 UI Kit inspired by Material Design for Figma. </h4>
 
-                        <a class="btn btn-primary" href="https://github.com/creativetimofficial/material-kit" target="_blank">
-                            <i class="fa fa-github"></i> Star on Github
-                          </a>
-
-                          <a class="btn btn-white" href="https://demos.creative-tim.com/material-kit/index.html?_ga=2.172389482.875843269.1518166215-1493248748.1509980686" target="_blank">
-                              Live Preview
-                            </a>
-
-                        <br>
-                        <br>
-                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2FCreativeTim&width=74&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="74" height="21" style="border:none;overflow:hidden;height:20px" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-
-                            <a href="https://twitter.com/creativetim?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow @creativetim</a>
-
-                            <a class="github-button" href="https://github.com/creativetimofficial/material-kit" data-icon="octicon-star" data-show-count="true" aria-label="Star creativetimofficial/material-kit on GitHub">Star</a>
-                          <br>
-                          <br>
                         <h6 class="category category-absolute rellax-text" data-rellax-speed="-2">Designed in
                           <a href="https://www.figma.com/" target="_blank">
-                              <img src="./assets/img/figma.png" class="figma-logo">
+                              <img src="./assets/img/figma-white.png" class="figma-logo"> Figma
                           </a>. Coded by
                           <a href="https://www.creative-tim.com" target="_blank">
                               <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo">
                           </a>.
                         </h6>
+                        <br>
+                        
+                        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2FCreativeTim&width=74&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="74" height="21" style="border:none;overflow:hidden;height:20px" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                        <a href="https://twitter.com/creativetim?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow @creativetim</a>
+
+                        <a class="github-button" href="https://github.com/creativetimofficial/material-kit" data-icon="octicon-star" data-show-count="true" aria-label="Star creativetimofficial/material-kit on GitHub">Star</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/img/imac1.png" class="imac">
+                    <img src="assets/img/imac1-figma.png" class="imac">
                 </div>
             </div>
         </div>
@@ -760,10 +503,8 @@
     <script src="./assets/assets-for-demo/js/vertical-nav.js"></script>
     <!-- Sharrre library -->
     <script src="./assets/js/plugins/jquery.sharrre.min.js"></script>
-    <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script src="https://buttons.github.io/buttons.js"></script>
 
     <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

@@ -729,3 +729,263 @@
 .flash {
   animation-name: flash;
 }
+
+body{
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-item .nav-link:not(.btn-just-icon) .fa{
+  margin-right: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  margin-right: 4px;
+}
+
+.imac{
+  position: absolute;
+  z-index: 1;
+  right: -220px;
+  width: 765px;
+  top: -170px;
+}
+.page-header{
+  background: radial-gradient(#929292 0%, #252525 100%);
+  background-position: 0 -150px;
+  background-size: 150% 200%;
+}
+
+.brand .category{
+  margin-top: 30px;
+}
+.category .figma-logo{
+  width: 30px;
+  height: 30px;
+  margin-top: -2px;
+}
+.category a,
+.category a:hover{
+  color: #fff;
+}
+.brand h1{
+  font-weight: 700;
+  margin-top: 0;
+}
+.brand .btn{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.category .creative-tim-logo{
+  width: 120px;
+  margin-top: -3px;
+}
+.page-header::before{
+  content:"";
+  display: block;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+}
+.page-header .container{
+  z-index: auto;
+}
+.page-header .container .col-lg-6:first-child{
+  z-index: 2;
+}
+p{
+  font-size: 16px;
+}
+
+.features-1 .col-md-6{
+  border: 1px solid hsla(0, 3%, 33%, .1);
+
+}
+
+.features-1 .col-md-6:first-child{
+  border-left: none;
+  border-top: none;
+
+}
+
+.features-1 .col-md-6:nth-child(2){
+  border-right: none;
+  border-top: none;
+
+}
+
+.features-1 .col-md-6:nth-child(3){
+  border-left: none;
+  border-bottom: none;
+
+}
+
+.features-1 .col-md-6:nth-child(4){
+  border-right: none;
+  border-bottom: none;
+
+}
+
+.section-content
+img{
+  height: auto !important;
+}
+
+.share-btn-img{
+  border-radius: 3px;
+}
+
+footer{
+  border-top: 1px solid #ddd;
+}
+
+.image-container-responsive{
+  width: 800px;
+  position: relative;
+}
+
+.image-container-responsive img{
+  width: 100%;
+  left: 100px;
+  margin-left: 100px;
+
+}
+
+.image-container-responsive .phone{
+  left: -200px;
+  width: 65%;
+  top: 100px;
+  position: absolute;
+}
+@media (max-width:767px){
+  .features-1 .col-md-6:first-child{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(2){
+    border-right: none;
+    border-top: none;
+    border-left: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(3){
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(4){
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+  }
+
+  .table-img{
+    max-width: 190px;
+    max-height: 60px;
+  }
+
+  .section-components .social-img {
+      left: 40%;
+      top: 25%;
+      height: 20px;
+  }
+
+
+  .section-components .image-container {
+    height: 300px;
+  }
+
+  .components-macbook{
+    max-width: 400px;
+    max-height: 240px;
+    left: 0px;
+  }
+
+  .section-components .coloured-card-img {
+  left: 30%;
+  height: 60px;
+}
+
+.image-container-responsive{
+  width: auto;
+}
+
+  .image-container-responsive img:first-child{
+      width: 30%;
+      display: none;
+  }
+
+  .image-container-responsive .phone{
+    width: 85%;
+    position: relative;
+    margin-left: 30px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .section-content .image-container .area-img{
+    width: 100px;
+  }
+
+  .section-content .image-container .info-img{
+    width: 200px;
+  }
+
+  .imac{
+    display: none;
+  }
+}
+
+  @media (max-width:991px) and (min-width:768px){
+    .imac{
+      display: none;
+    }
+
+    .image-container-responsive{
+      width: auto;
+    }
+
+    .image-container-responsive img{
+        width: 60%;
+    }
+
+    .image-container-responsive .phone{
+      width: 40%;
+      left: -100px;
+    }
+
+    .section-components .coloured-card-img {
+    left: 60%;
+  }
+
+  .section-components .social-img {
+    left: 45%;
+  }
+  .components-macbook{
+    max-width: 700px;
+    max-height: 440px;
+    left: 0px;
+  }
+}
+
+@media (max-width:991px){
+  .brand{
+    text-align: center;
+  }
+
+  .section-description{
+    text-align: center;
+  }
+
+  .section-components{
+    text-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+}
