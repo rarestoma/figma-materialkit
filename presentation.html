@@ -23,7 +23,7 @@
     <meta itemprop="name" content="Material Kit Figma by Creative Tim">
     <meta itemprop="description" content="Prototype and Develop with a Badass Bootstrap 4 UI Kit for Figma inspired by Material Design.">
 
-    <meta itemprop="image" content="">
+    <meta itemprop="image" content="assets/img/figma-mk-free.jpg">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="product">
@@ -32,7 +32,7 @@
 
     <meta name="twitter:description" content="Prototype and Develop with a Badass Bootstrap 4 UI Kit for Figma inspired by Material Design.">
     <meta name="twitter:creator" content="@creativetim">
-    <meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/46/original/opt_mkp_thumbnail.jpg">
+    <meta name="twitter:image" content="assets/img/figma-mk-free.jpg">
     <meta name="twitter:data1" content="Material Kit Figma by Creative Tim">
     <meta name="twitter:label1" content="Product Type">
     <meta name="twitter:label2" content="Price">
@@ -41,8 +41,8 @@
     <meta property="fb:app_id" content="655968634437471">
     <meta property="og:title" content="Material Kit Figma by Creative Tim">
     <meta property="og:type" content="article">
-    <meta property="og:url" content=" http://demos.creative-tim.com/material-kit-figma/presentation.html">
-    <meta property="og:image" content="">
+    <meta property="og:url" content="http://demos.creative-tim.com/material-kit-figma/presentation.html">
+    <meta property="og:image" content="assets/img/figma-mk-free.jpg">
     <meta property="og:description" content="Prototype and Develop with a Badass Bootstrap 4 UI Kit for Figma inspired by Material Design.">
     <meta property="og:site_name" content="Creative Tim">
 
@@ -89,8 +89,8 @@
                       </a>
                       <ul class="dropdown-menu dropdown-menu-right">
 
-                          <li><a href="#">Download Figma</a></li>
-                          <li><a href="#">Download HTML</a></li>
+                          <li><a href="https://github.com/creativetimofficial/material-kit/archive/figma.zip"  class="google-events" data-google-event="Download Figma" target="_blank">Download Figma</a></li>
+                          <li><a href="https://github.com/creativetimofficial/material-kit/archive/master.zip" class="google-events" data-google-event="Download HTML" target="_blank">Download HTML</a></li>
                       </ul>
                     </div>
                   </li>
@@ -466,7 +466,7 @@
 
             <div class="copyright pull-right">
                 ©
-                <script src="http://connect.facebook.net/signals/config/111649226022273?v=2.8.9&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script>
+                <script>
                     document.write(new Date().getFullYear())
                 </script>, made with <i class="material-icons">favorite</i> by
                 <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
@@ -503,6 +503,7 @@
     <script src="assets/js/plugins/jquery.sharrre.min.js"></script>
 
     <script src="https://buttons.github.io/buttons.js"></script>
+
 
     <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -555,6 +556,48 @@
 
         });
     </script>
+
+    <!-- Google Analytics New -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // On the Origin Domain
+  try {
+      ga('create', 'UA-46172202-1', 'auto');
+  } catch (e) {
+      console.log("Google error");
+  }
+
+  try {
+      ga('send', 'pageview');                         // Send hits after initializing the auto-linker plug-in.
+  } catch (e) {
+      console.log("Google error");
+  }
+
+
+  $(".google-events").on("click", function(){
+    try{
+      console.log('gogole event');
+      console.log($(this).attr('data-google-event'));
+
+      ga("send",{
+        hitType:"event",
+        eventCategory:"FigmaMaterialKitFree",
+        eventAction:"download",
+        eventLabel:$(this).attr("data-google-event");
+
+      })}
+     catch(e){
+       console.log("Google Track Error:",e)}
+     });
+
+
+</script>
+<!-- End Google Analytics -->
+
 </body>
 
 </html>
